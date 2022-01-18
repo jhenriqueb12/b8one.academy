@@ -1,0 +1,48 @@
+<!--
+Tags Formulários:
+-form -> inforações para contato ou inscrições em algum evento
+-input -> Preenchimento de informação
+-label -> Tag de texto que interage com input
+-textarea ->
+-button -> Submeter e enviar dados (função no formulário)
+-select -> Para selecionar opções
+-->
+
+<html>
+    <head>
+        <title>Aula 9 - b8one.academy</title>
+    </head>
+    <body>
+        <form action="bomasma" method="POST">
+            <label>
+                Seu nome
+            </label>
+            <input type="text" name="firstName" placeholder="Digite seu primeiro nome" id="firstNameInput" required="">
+            <label>
+                Sua idade
+            </label>
+            <input type="number" name="age" min="18" max="65" placeholder="sua idade" id="ageInput">
+            <label>
+                Seu e-mail
+            </label>
+            <input type="email" name="email" placeholder="Digite seu e-mail" id="emailInput">
+            <select name="gender" id="genderField">
+                <option value="gender" disabled required>
+                    Selecione seu gênero
+                </option>
+                <option value="masculino">
+                    Masculino
+                </option>
+                <option value="feminino">
+                    Feminino
+                </option value="outros">
+                <option>
+                    Outros
+                </option>
+            </select>
+            <button type="submit">
+                Enviar
+            </button>
+        </form>
+    </body>
+</html>
