@@ -1,0 +1,26 @@
+/*
+PROPRIEDADES DE TEXTO
+
+-font-size
+-font-weight
+-sont-style
+-color
+-line-height
+-letter-spacing
+*/
+
+.text-1 {
+  color: red;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 0.5px;
+}
+
+.long-text {
+  max-width: 740px;
+  font-size: 18px;
+  font-weight: 600px;
+  color: gray;
+  line-height: 28px;
+}

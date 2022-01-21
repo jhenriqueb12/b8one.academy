@@ -1,0 +1,8 @@
+/*
+SELETORES BÁSICOS
+*/
+
+input[type="text"] {
+  width: 300px;
+  background: red;
+}

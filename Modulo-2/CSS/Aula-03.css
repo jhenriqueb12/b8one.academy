@@ -1,0 +1,19 @@
+/*
+PROPRIEDADES BLOCOs:
+-display
+-max-eidth
+-max-height
+-width
+-height
+-background
+*/
+
+
+.block-1 {
+  display: inline-block;
+  max-width: 150px;
+  width: 100px;
+  max-height: 200px;
+  height: 100px;
+  background: red;
+}

@@ -1,0 +1,32 @@
+/*
+SELETORES CSS:
+Combinadores:
+-irmão -> +
+-adjacents -> ~
+-filhos -> >
+-descendentes
+*/
+
+.block-1 {
+  width: 300px;
+  height: 300px;
+  background: darkgreen;
+}
+
+.block-1 + .text-1 {
+  color: blue;
+  background: darkgreen;
+}
+
+.block-1 ~ .text-2 {
+  color: blue;
+  background: darkgreen;
+}
+
+.list > .list-item {
+  display: inline-block;
+}
+
+.list .list-item {
+  display: inline-block;
+}

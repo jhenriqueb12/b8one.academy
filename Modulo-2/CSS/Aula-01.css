@@ -1,0 +1,19 @@
+/*
+O QUE É O CSS?
+
+É onde as coisas ficam bonitas
+
+CSS (Folhas de Estilos em Cascatas) permite a você criar páginas web mais agradáveis.
+
+O CSS pode ser usado para estilizar um documento muito básico de texto - por exemplo, alterando a cor e tamanho dos títulos e links. Pode ser usado para criar layout - por exemplo transformando uma simples coluna de texto em um layout com uma área de conteúdo principal e um sidebar (barra lateral) para as informações relacionada. Pode até ser... a efeitos tais como animação. Dê uma olhada nos links desse parágrafo, para ver exempls específicos.
+*/
+
+/*
+SINTAXE:
+.meucss { -> Identificador
+display: block; -> Chave: valor
+color: red; -> Chave: valor
+width: 100%; -> Chave: valor
+height: 100%; -> Chave: valor
+}
+*/
