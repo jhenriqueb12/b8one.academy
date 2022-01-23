@@ -1,0 +1,58 @@
+/*
+PSEUDO CLASSES:
+-:hover
+-:focus
+-:checked
+-:nth-child()
+-:first-child
+-:last-child
+-:disabled
+-:empty
+*/
+
+.block-1 {
+  width: 200px;
+  height: 200px;
+  background: dodgerblue;
+  transition: all .3s ease-in-out;
+}
+
+.block-1:hover {
+  background: red;  
+  transform: translate(20px);
+}
+
+.input:focus {
+  width: 250px;
+}
+
+.checkbox:checked {
+  display: none;
+}
+
+.checkbox:disabled {
+  display: none;
+}
+
+.list-item:nth-child(odd) {
+  background: dodgerblue;
+}
+
+.list-item:first-child {
+  color: white;
+}
+
+.list-item:last-child {
+  color: white;
+}
+
+.block-2 {
+  width: 200px;
+  height: 200px;
+  background: purple;
+  transition: all .3s ease-in-out;
+}
+
+.block-2:empty {
+  display: none;
+}
