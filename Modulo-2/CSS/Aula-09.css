@@ -1,0 +1,60 @@
+/*
+PSEUDO ELEMENTO:
+-::before
+-::after
+-::first-letter
+-::placeholder
+*/
+
+.title {
+  position: relative;
+  color: gray;
+  text-align: center;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title::before,
+.title::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 200px;
+  height: 2px;
+  background: red;
+}
+
+.title::before {
+  right: 30%;
+}
+
+.title::after {
+  left: 30%;
+}
+
+.subtitle {
+  text-align: center;
+  color: blue;
+}
+
+.subtitle::before {
+  content: "Texto antes do ";
+}
+
+.long-text {
+  max-width: 440px;
+}
+
+.long-text::first-letter {
+  font-size: 36px;
+  padding: 8px;
+}
+
+.input {
+  color: blue;
+}
+
+.input::placeholder {
+  color: red;
+}
